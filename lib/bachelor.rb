@@ -58,6 +58,6 @@ ages.each do |age|
   total =+ age
   total
 end
-age_average = total/divide
+age_average = total/age_average
 age_average.round(0)
 end
