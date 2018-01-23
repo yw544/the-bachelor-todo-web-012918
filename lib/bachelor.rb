@@ -1,7 +1,7 @@
 def get_first_name_of_season_winner(data, season)
   # code here
   data[season].each do |stats_of_contestant|
-    if |stats_of_contestant|["status"].downcase =="winner"
+    if stats_of_contestant["status"].downcase =="winner"
       return stats_of_contestant["name"].split(" ").first
     end
   end
@@ -16,7 +16,7 @@ data.each do |season, contestant|
     end
   end
 end
-    
+
 end
 
 def count_contestants_by_hometown(data, hometown)
