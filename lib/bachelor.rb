@@ -55,7 +55,7 @@ age_average = ages.size
 total = 0
 ages.each do |age|
   age = age.to_f
-  total =+ age
+  total += age
   total
 end
 final_num = total/age_average
