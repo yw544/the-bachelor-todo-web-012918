@@ -51,7 +51,7 @@ current_season = data[season]
 current_season.each do |contestant|
   ages << contestant["age"]
 end
-age_average = age.size
+age_average = ages.size
 total = 0
 ages.each do |age|
   age = age.to_f
